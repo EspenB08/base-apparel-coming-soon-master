@@ -8,7 +8,7 @@ body{
     min-width: 100vh;
     min-height: 100vh;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 14px;
     display: grid;
     place-content: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -35,6 +35,8 @@ h1{
 p{
     margin: 15px 0;
     color: hsl(0, 36%, 70%);
+    line-height: 24px;
+    font-size: 16px;
 }
 /***********************************************************************************************************/
 .grid{
@@ -81,7 +83,8 @@ p{
     
 }
 #search{
-    padding: 13px 80px;
+    padding: 13px 0 13px 20px;
+    width: 300px;
     border-radius: 3rem;
     opacity: 60%;
     border: 1px solid rgba(32, 30, 30, 0.5);
